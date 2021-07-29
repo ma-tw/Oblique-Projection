@@ -4,7 +4,7 @@ G = 9.8
 
 while True:
     try:
-        velocity = float(input("初速度v0 >> "))
+        velocity = float(input("初速度v0 [m/s] >> "))
     except ValueError as err:
         print("値が不正です。", err)
     else:
