@@ -11,7 +11,7 @@ while True:
         if velocity >= 0:
             break
         else:
-            print("v0 ≥ 0で指定してください。")
+            print("v0 ≥ 0 m/s で指定してください。")
 
 while True:
     try:
@@ -22,7 +22,7 @@ while True:
         if 0 <= theta <= 90:
             break
         else:
-            print("0° ≤ θ ≤ 90°で指定してください。")
+            print("0° ≤ θ ≤ 90° で指定してください。")
 
 v0sintheta = velocity * math.sin(math.radians(theta))
 v0costheta = velocity * math.cos(math.radians(theta))
